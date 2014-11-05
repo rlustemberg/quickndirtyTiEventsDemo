@@ -4,3 +4,4 @@ Quick and dirty demo app to demonstrate Ti.App and Backbone.Events quirks
 
 ----------------------------------
 As shown on TitaniumNL Meetup on 5/11/14
+Please check Fokke Zandbergen's tidev post @ http://www.tidev.io/2014/09/10/the-case-against-ti-app-fireevent-2/ for more info
