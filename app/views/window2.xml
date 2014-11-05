@@ -1,0 +1,7 @@
+<Alloy>
+	<Window layout="vertical" onClose="cleanup">
+		<Label>Window 4 </Label>
+		<Label id="info">
+		</Label>
+	</Window>
+</Alloy>

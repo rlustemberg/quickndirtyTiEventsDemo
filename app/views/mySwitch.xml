@@ -1,0 +1,5 @@
+<Alloy>
+	<View class="container" width="30" height="30">
+		<View id="mSwitch" onClick="toggle" width="30" height="30" backgroundImage="Tag_icon.png"></View>
+	</View>
+</Alloy>

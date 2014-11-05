@@ -1,0 +1,35 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Trigger events">
+			<Window id="window1" class="container">
+				<View height="Ti.UI.SIZE" layout="vertical">
+					<Label>Trigger events </Label>
+					<Button top="20" onClick="triggerAppEventWithData">Trigger Ti.App event (data)</Button>
+					<Button onClick="triggerAppEventWithMethod">Trigger Ti.App event (method)</Button>
+					<Button onClick="triggerBackboneEventWithData">Trigger Backbone event (data)</Button>
+					<Button onClick="triggerBackboneEventWithMethod">Trigger Backbone event (method)</Button>
+					<Button onClick="triggerBackboneEventWithMethod">Trigger Backbone event (method)</Button>
+					<Button onClick="triggerAll">Trigger All</Button>
+					<Button onClick="triggerEventWithReference">Trigger event with UI reference</Button>
+					<Button onClick="triggerEventOnce">Trigger event once</Button>
+				</View>
+			</Window>			
+		</Tab>
+		<Tab title="Open listeners">
+			<Window class="container">
+				<View height="Ti.UI.SIZE" layout="vertical">
+					<Label>Open listeners </Label>
+					<Button top="50" onClick="openWindow">Open dirty window</Button>
+					<Button onClick="openWindow2">Open cleaner window</Button>
+					<Button onClick="openWindow3">Open with UI reference test (dirty)</Button>
+					<Button onClick="openWindow4">Open with UI reference test (clean)</Button>
+					<Button onClick="openWindow6">Unsupported Backbone methods</Button>
+				</View>
+			</Window>		
+		</Tab>
+		<Tab title="Messages">
+				<Require src="window5" type="view"/>
+		</Tab>
+	</TabGroup>
+	
+</Alloy>

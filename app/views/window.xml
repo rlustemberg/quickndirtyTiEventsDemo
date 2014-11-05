@@ -1,0 +1,7 @@
+<Alloy>
+	<Window layout="vertical">
+		<Label>Window 3 </Label>
+		<Label id="info">
+		</Label>
+	</Window>
+</Alloy>

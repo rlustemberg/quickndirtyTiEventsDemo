@@ -1,0 +1,7 @@
+<Alloy>
+	<Window layout="vertical">
+		<Label>Events listeners are set on the fly</Label>
+		<Label top="50" id="info" onClick="clear">
+		</Label>
+	</Window>
+</Alloy>
